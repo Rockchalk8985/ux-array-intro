@@ -16,10 +16,14 @@ let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 
 // Your Code Here
 
+console.log(sentence[2]);
+
 // Step Two ------------------
 // Log the last word in the array to the console.
 
 // Your Code Here
+
+console.log(sentence[5]);
 
 /*
 ---------------------------------------------------------------------------
@@ -34,6 +38,10 @@ Then log the sum to the console. (Hint: It should be 28)
 let numbers = [3, 4, 5, 7, 9];
 
 // Your Code Here
+let addednumbers =
+  numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4];
+
+console.log(addednumbers);
 
 /*
 ---------------------------------------------------------------------------
@@ -47,9 +55,12 @@ Exercise Three - Creating an array
 
 // Your Code Here
 
+let colors = ["Red", "Blue", "Green", "Teal", "Gray"];
+
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
 
+console.log(colors.length);
 /*
 ---------------------------------------------------------------------------
 Exercise Four - Updating an array
@@ -63,13 +74,21 @@ let names = []; // Don't modify this line.
 // Then log your array to the console.
 
 // Your Code Here
+names.push("Joe");
+names.push("Bob");
+names.push("Chris");
+names.push("Tanner");
+names.push("Dave");
 
+console.log(names);
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
 // Then log the modified array to the console.
-let index = 2;
+let index = ["bob"];
 
 // Your Code Here
+
+console.log(index)
 
 /*
 ---------------------------------------------------------------------------
@@ -85,4 +104,7 @@ Then log the new array to the console.   Hint: Use concat, this was shown in the
 let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
 
+let results = firstArray.concat(secondArray);
+
+console.log(results);
 // Your Code Here.
